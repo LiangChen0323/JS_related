@@ -65,10 +65,6 @@ function switchPlayer() {
 
 document.querySelector(".btn-new").addEventListener("click", init);
 
-
-
-
-
 function init() {
   gamePlaying = true;
   score = [0, 0];
