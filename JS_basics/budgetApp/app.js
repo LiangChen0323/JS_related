@@ -54,11 +54,9 @@ var UIController = (() => {
     inputDescription: ".add__description",
     inputValue: ".add__value",
     inputBtn: ".add__btn",
-
-
   };
-
-  return { // Public methods
+  // Public methods
+  return {
     getInput: () => { // return a object contains: type, description and value that user gives
       return {
         type: document.querySelector(DOMString.inputType).value, // return inc or exp
